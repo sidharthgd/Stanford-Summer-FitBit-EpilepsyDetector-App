@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "dd4a9270-9950-49bb-bed7-0ccedc1cf6c9",
+    "appType": "app",
+    "appDisplayName": "SASI Capstone 2022",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "SASI Capstone 2022"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
